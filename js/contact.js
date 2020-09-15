@@ -16,7 +16,7 @@ function validateform(){
 		}
 		if (!isNaN(namea)){  
 		  // alert("Name can't be blank");
-		  document.getElementById('lbauser').innerHTML = " **only characters are allowed ";
+		  document.getElementById('lbauser').innerHTML = " **only letters are allowed ";
 		  return false;  
 		}
 
